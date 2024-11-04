@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 217, 0, 0.562);
+    font-family: "Inter", serif;
+    font-weight: 400;
+}
+
+
+form{
+    border: none;
+    background-color: rgb(255, 225, 0);
+    box-shadow: 2px 3px 20px rgb(196, 166, 0);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 300px;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid rgb(196, 166, 0);
+    border-radius: 5px;
+    background-color: rgb(255, 247, 190);
+    margin-bottom: 20px;
+}
+
+label{
+   font-size: 1.2rem;
+}
+
+input[type="radio"]{
+    filter: hue-rotate(170deg);
+}
+
+button{
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: rgb(28, 25, 25);
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(239, 116, 35, 0.837);
+    box-shadow: 1px 2px 5px rgb(196, 166, 0);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(251, 105, 9);
+    color: rgb(0, 0, 0);
+    transition-duration: 200ms;
+}
+
+#result{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+
