@@ -50,19 +50,20 @@ button{
     padding: 8px 10px;
     border: none;
     border-radius: 5px;
-    background-color: rgba(239, 116, 35, 0.837);
+    background-color: rgba(239, 117, 35, 0.775);
     box-shadow: 1px 2px 5px rgb(196, 166, 0);
     cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(251, 105, 9);
+    background-color: rgb(251, 90, 9);
     color: rgb(0, 0, 0);
     transition-duration: 200ms;
 }
 
 #result{
-    font-size: 1.2rem;
+    font-size: 1.75rem;
+    color: rgb(213, 16, 16);
     font-weight: 700;
     padding: 10px 0;
 }
